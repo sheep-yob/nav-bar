@@ -1,0 +1,33 @@
+body {
+    
+    background-image: radial-gradient(circle at center, #ffffff 0%, #f4eaff 100%);
+    color: #2d2838;
+    
+
+}
+
+nav{display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    background-image: linear-gradient(rgba(119, 89, 218, 0.518),rgb(202, 171, 255));
+    border-radius: 45px;
+    padding-top: 15px;
+    
+    
+}
+a{margin-top: 10px;
+    font-size: 20px;
+    margin-left: 100px;
+    color:whitesmoke;
+    text-decoration: none;
+}
+img{
+    height: 40px;
+    width: 40px;
+    border-radius: 200px;
+    margin-bottom: 10px;
+    
+
+}
+

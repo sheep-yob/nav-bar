@@ -1,0 +1,42 @@
+
+
+
+.lay{
+    border: 2px solid ;
+    border-radius: 30px;
+    width: 200px;
+    height:  400px;
+    
+}
+#header{
+    margin-left: 10px;
+    border-radius: 10px;
+    width:  180px;
+    margin-top: 20px;
+    background-color: rgb(165, 46, 46);
+    color: whitesmoke;
+    text-align: center;
+}
+body{
+    display:grid;
+    place-items: center;
+
+}
+.img{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    margin-top: 20px;
+}
+h3{
+    text-align: center;
+    
+}
+.prin{
+    text-align: right;
+}
+footer{
+    text-align: center;
+} 
+
+

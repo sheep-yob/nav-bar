@@ -1,0 +1,143 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1571330422950-0de5787b593b?q=80&w=2129&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+
+background-size: 100% ;
+background-position: center center;
+background-repeat: no-repeat;
+height:60vh;
+
+width: 100%;
+color: white; 
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+}
+.content{
+    
+    position: absolute;
+    right: 50%;
+
+}
+
+
+
+.content h1{
+    font-size: 3.5rem;
+
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: 'poppins',sans-serif;
+}
+.content p{
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.content h3{
+    max-width: 600px;
+
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'poppins',sans-serif;
+}
+button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    border-color: #54b2f5;
+    background-color: #54b2f5;
+    font-family: 'poppins',sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins',sans-serif;
+    margin: 5px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;             
+    padding: 20px 40px;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;             
+    top: 0; 
+    left: 0;
+    z-index: 10;
+}
+
+nav input{
+    
+        display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    border-color: #54b2f5;
+    background-color: #54b2f5;
+    font-family: 'poppins',sans-serif;
+    
+}
+.bar{
+    display: flex;
+    gap: 30px;
+    align-items:center ;
+} 
+.visit{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'poppins',sans-serif;
+    margin: 20px 0;
+    color:#1E4620;
+}
+
+.gridcon{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.item1{
+
+    background-color: red;
+
+}
+.item2{
+
+    background-color: blue;
+
+}
+.item3 {
+
+    background-color: green;
+
+}
+
+
+
